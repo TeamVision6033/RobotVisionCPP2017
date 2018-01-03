@@ -1,0 +1,134 @@
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:853:22: error: redefinition of ‘class cv::LDA’
+     class CV_EXPORTS LDA
+                      ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:46:0,
+                 from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/core.hpp:2422:18: error: previous definition of ‘class cv::LDA’
+ class CV_EXPORTS LDA
+                  ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:961:27: error: redeclaration of ‘COLORMAP_AUTUMN’
+         COLORMAP_AUTUMN = 0,
+                           ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3782:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_AUTUMN’
+     COLORMAP_AUTUMN = 0, //!< ![autumn](pics/colormaps/colorscale_autumn.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:962:25: error: redeclaration of ‘COLORMAP_BONE’
+         COLORMAP_BONE = 1,
+                         ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3783:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_BONE’
+     COLORMAP_BONE = 1, //!< ![bone](pics/colormaps/colorscale_bone.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:963:24: error: redeclaration of ‘COLORMAP_JET’
+         COLORMAP_JET = 2,
+                        ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3784:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_JET’
+     COLORMAP_JET = 2, //!< ![jet](pics/colormaps/colorscale_jet.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:964:27: error: redeclaration of ‘COLORMAP_WINTER’
+         COLORMAP_WINTER = 3,
+                           ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3785:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_WINTER’
+     COLORMAP_WINTER = 3, //!< ![winter](pics/colormaps/colorscale_winter.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:965:28: error: redeclaration of ‘COLORMAP_RAINBOW’
+         COLORMAP_RAINBOW = 4,
+                            ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3786:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_RAINBOW’
+     COLORMAP_RAINBOW = 4, //!< ![rainbow](pics/colormaps/colorscale_rainbow.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:966:26: error: redeclaration of ‘COLORMAP_OCEAN’
+         COLORMAP_OCEAN = 5,
+                          ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3787:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_OCEAN’
+     COLORMAP_OCEAN = 5, //!< ![ocean](pics/colormaps/colorscale_ocean.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:967:27: error: redeclaration of ‘COLORMAP_SUMMER’
+         COLORMAP_SUMMER = 6,
+                           ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3788:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_SUMMER’
+     COLORMAP_SUMMER = 6, //!< ![summer](pics/colormaps/colorscale_summer.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:968:27: error: redeclaration of ‘COLORMAP_SPRING’
+         COLORMAP_SPRING = 7,
+                           ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3789:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_SPRING’
+     COLORMAP_SPRING = 7, //!< ![spring](pics/colormaps/colorscale_spring.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:969:25: error: redeclaration of ‘COLORMAP_COOL’
+         COLORMAP_COOL = 8,
+                         ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3790:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_COOL’
+     COLORMAP_COOL = 8, //!< ![cool](pics/colormaps/colorscale_cool.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:970:24: error: redeclaration of ‘COLORMAP_HSV’
+         COLORMAP_HSV = 9,
+                        ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3791:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_HSV’
+     COLORMAP_HSV = 9, //!< ![HSV](pics/colormaps/colorscale_hsv.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:971:25: error: redeclaration of ‘COLORMAP_PINK’
+         COLORMAP_PINK = 10,
+                         ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3792:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_PINK’
+     COLORMAP_PINK = 10, //!< ![pink](pics/colormaps/colorscale_pink.jpg)
+     ^
+In file included from /usr/include/opencv2/opencv.hpp:59:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:4:
+/usr/include/opencv2/contrib/contrib.hpp:972:24: error: redeclaration of ‘COLORMAP_HOT’
+         COLORMAP_HOT = 11
+                        ^
+In file included from /home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc/imgproc.hpp:48:0,
+                 from /home/ubuntu/eclipse-workspace/RobotVision2017/visionProcessor.cpp:2:
+/home/ubuntu/wpilib/cpp/current/include/opencv2/imgproc.hpp:3793:5: note: previous declaration ‘cv::ColormapTypes COLORMAP_HOT’
+     COLORMAP_HOT = 11, //!< ![hot](pics/colormaps/colorscale_hot.jpg)
+     ^
+make[2]: *** [CMakeFiles/robotvision2017.dir/visionProcessor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robotvision2017.dir/all] Error 2
+make: *** [all] Error 2

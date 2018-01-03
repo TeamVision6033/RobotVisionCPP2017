@@ -1,0 +1,5 @@
+#include "WPILib.h"
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/core/core.hpp"
+include_directories(${OpenCV_INCLUDE_DIRS} include . /home/ubuntu/wpilib/cpp/current/include)
+target_link_libraries( robotvision2017 ${OpenCV_LIBS} -lpthread -lntcore)
